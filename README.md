@@ -16,5 +16,7 @@ git pull --squash git@github.com:vergenzt/gradle-bootstrap.git scala
 
 ### Note
 
+The commands above will add the bootstrap files to the index but not commit, allowing you to make modifications before committing.
+
 You should add `build/` and `.gradle/` to your `.gitignore` file.
 
