@@ -1,0 +1,11 @@
+apply plugin: "java"
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  // e.g. compile "com.google.guava:guava:18.0"
+  // e.g. testCompile "junit:junit:4.12"
+}
+
