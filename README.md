@@ -6,12 +6,12 @@ This is a bootstrap project for gradle-wrapper. See [the docs](http://www.gradle
 
 ### Adding to a Java project
 ```
-git pull --squash git@github.com:vergenzt/gradle-bootstrap.git java
+git fetch git@github.com:vergenzt/gradle-bootstrap.git java && git checkout FETCH_HEAD .
 ```
 
 ### Adding to a Scala project:
 ```
-git pull --squash git@github.com:vergenzt/gradle-bootstrap.git scala
+git fetch git@github.com:vergenzt/gradle-bootstrap.git scala && git checkout FETCH_HEAD
 ```
 
 ### Note
